@@ -1,0 +1,6 @@
+do@geneshark:~/scavenger-hunt/saved-clues$ pwd
+/home/do/scavenger-hunt/saved-clues
+
+do@geneshark:~/scavenger-hunt/saved-clues$ ls
+clue10  clue12_FINAL  clue3  clue5  clue7  clue9
+clue11  clue2         clue4  clue6  clue8
