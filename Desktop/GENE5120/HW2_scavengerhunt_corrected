@@ -1,0 +1,39 @@
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 3 10
+19773
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 4 geneshark
+51751
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 5 -n
+85320
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 6 /usr/local/sbin
+06329
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 7 /usr/bin/touch
+09495
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 8 denied
+70240
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 9 102401
+12338
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 10 tactfully
+47932
+do@geneshark:~/scavenger-hunt$ python3 next_clue.py 7 11 "-k5 -nr"
+76388
+do@geneshark:~/scavenger-hunt$ cd clues
+do@geneshark:~/scavenger-hunt/clues$ grep -L "Nothing to see here." */*
+06329/clue
+07603/clue
+09495/clue
+12338/clue
+12345/clue
+19773/clue
+47932/clue
+51751/clue
+70240/clue
+76388/clue
+85320/clue
+do@geneshark:~/scavenger-hunt/clues$ cd 07603
+do@geneshark:~/scavenger-hunt/clues/07603$ cd ../..
+do@geneshark:~/scavenger-hunt$ cd saved-clues/
+do@geneshark:~/scavenger-hunt/saved-clues$ pwd
+/home/do/scavenger-hunt/saved-clues
+do@geneshark:~/scavenger-hunt/saved-clues$ ls
+clue10  clue12_FINAL  clue3  clue5  clue7  clue9
+clue11  clue2         clue4  clue6  clue8
